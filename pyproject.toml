@@ -23,3 +23,7 @@ dev = [
     "pytest-asyncio>=1.1.0",
     "pytest-html>=4.1.1",
 ]
+
+[project.scripts]
+# 将 "app" 指向 api/vercel.py 中的 FastAPI 实例（假设变量名为 app）
+app = "api.vercel:app"
