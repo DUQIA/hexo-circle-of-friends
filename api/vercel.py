@@ -226,7 +226,7 @@ app.add_middleware(
 
 
 @app.get(
-    "/all",
+    "/all.json",
     tags=["PUBLIC_API"],
     summary="返回完整统计信息",
     description="获取数据库中的统计信息和文章列表，支持分页和排序",
