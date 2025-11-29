@@ -1,11 +1,6 @@
 {
     "version": 2,
     "public": true,
-    "build": {
-      "env": {
-        "HOME": "/root"
-      }
-    },
     "rewrites": [
       {
         "source": "/(.*)",
